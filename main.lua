@@ -164,6 +164,6 @@ function love.draw(dt)
 		love.graphics.draw(enemy.img, enemy.x, enemy.y)
 	end
 	
-	love.graphics.setColor(64,64, 255)
+	love.graphics.setColor(64, 255, 255)
 	love.graphics.print("SCORE: " .. tostring(score), 400, 10)
 end
